@@ -15,8 +15,10 @@ package.json | All npm packages contain a file, this file holds various metadata
 
       Router | Description | Parameters
       :-- | :-- | :-- 
-      /catalog | To get the entire data. | type: this is to get the data of that particular type like category/hooks/services.\n category: this is to get the particular category data (Note: used only for categories data. value of that parameter will be like 'Authentication/User Management').
-      /searchcatalog | to get the data based on user search. | searchString: user search string.\n type: type of data. Example category/hooks/services.
-      /platformservices | to get the data once user has logged into particular platform to deploy. | id: id of our onecognizant service.\n platform: selected platforms list
+      /catalog | To get the entire data. | type: this is to get the data of that particular type like category/hooks/services. category: this is to get the particular category data (Note: used only for categories data. value of that parameter will be like 'Authentication/User Management').
+      /searchcatalog | to get the data based on user search. | searchString: user search string.
+      type: type of data. Example category/hooks/services.
+      /platformservices | to get the data once user has logged into particular platform to deploy. | id: id of our onecognizant service.
+      platform: selected platforms list
 
 - After all configuration is done, start the application and try 'YOUR_DOMAIN_URL' or 'YOUR_DOMAIN_URL'/catalog in the browser. For eg: http://localhost:3000/catalog or http://localhost:3000/
