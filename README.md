@@ -2,7 +2,7 @@
 
 ### PaaS Catalog service will provide the list of services that are available in Cognizant One along with the platforms where they are deployed. It will also pull the list of services that are available in the target platform. The metadata of all the services and its supporting platforms will be stored in gist. The user will be able to see the list of services and search for a service.
 
-### Template application files
+#### Template application files
 
 File | Description
 :-- | :-- 
